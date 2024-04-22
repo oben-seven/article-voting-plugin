@@ -121,7 +121,7 @@ class ArticleVotingAdmin {
             <p><?php esc_html_e('This page displays the voting statistics for all posts on your blog.', 'article-voting-plugin'); ?></p>
 
             <p><?php esc_html_e('The table below shows the number of positive and negative votes for each post.', 'article-voting-plugin'); ?></p>
-            <table style="width: 100%, border: 1px solid #ccc;">
+            <table class="tablo"style="width: 100%; border: 1px solid #ccc;">
                 <tr>
                     <th style="background-color: grey; color: white; padding: 10px;"><?php esc_html_e('Post Title', 'article-voting-plugin'); ?></th>
                     <th style="background-color: grey; color: white; padding: 10px;"><?php esc_html_e('Positive Votes', 'article-voting-plugin'); ?></th>
